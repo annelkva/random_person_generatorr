@@ -42,7 +42,7 @@ export function RandomPersonComponent() {
   }, [])
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+    <div className="min-h-screen flex items-center justify-center bg-pink-200">
       <Card className="w-[350px]">
         <CardHeader>
           <CardTitle className="text-2xl font-bold text-center">Tilfeldig person</CardTitle>

@@ -1,8 +1,6 @@
 import Link from "next/link";
 
-type NavbarPropsT = {}
-
-const Navbar = (props: NavbarPropsT) => {
+const Navbar = () => {
   return (
       <nav className="flex justify-evenly">
         <Link className="p-4" href="/">Home</Link>

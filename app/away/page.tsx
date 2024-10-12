@@ -1,6 +1,4 @@
-type pagePropsT = {}
-
-const page = (props: pagePropsT) => {
+const page = () => {
   return (
     <>
       <h1>heiiiii</h1>

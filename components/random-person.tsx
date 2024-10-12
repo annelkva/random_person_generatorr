@@ -7,6 +7,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Skeleton } from "@/components/ui/skeleton"
 import { Mail, MapPin } from 'lucide-react'
 
+
 interface Person {
   name: { first: string; last: string }
   email: string
@@ -42,7 +43,6 @@ export function RandomPersonComponent() {
   }, [])
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-pink-200">
       <Card className="w-[350px]">
         <CardHeader>
           <CardTitle className="text-2xl font-bold text-center">Tilfeldig person</CardTitle>
@@ -83,6 +83,5 @@ export function RandomPersonComponent() {
           </Button>
         </CardContent>
       </Card>
-    </div>
   )
 }

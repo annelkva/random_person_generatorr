@@ -30,6 +30,7 @@ export function RandomPersonComponent() {
       const data = await response.json()
       setPerson(data.results[0])
     } catch (err) {
+      console.log(err)
       setError('An error occurred while fetching the data. Please try again.')
     } finally {
       setLoading(false)
